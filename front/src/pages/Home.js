@@ -1,31 +1,21 @@
 // src/pages/Home.js
 import React from 'react';
-import ProductCard from '../components/ProductCard';
+import ImageCarousel from '../components/ImageCarousel';
+import './Home.css';
 
-const products = [
-  {
-    name: 'Figura Goku',
-    price: 19990,
-    image: '/images/goku.jpg',
-    description: 'Figura articulada de Goku Super Saiyajin',
-  },
-  {
-    name: 'Figura Luffy',
-    price: 17990,
-    image: '/images/luffy.jpg',
-    description: 'Figura coleccionable de Luffy Gear 5',
-  },
-  // ...más productos
-];
-
-const Home = () => {
-  return (
-    <div className="product-grid">
-      {products.map((prod, idx) => (
-        <ProductCard key={idx} {...prod} />
-      ))}
+const Home = () => (
+  <div className="home-container">
+    <div className="home-carousel">
+      <ImageCarousel />
     </div>
-  );
-};
+    <div className="home-description">
+      <h1>Figuras de Cerámica Pintadas a Mano</h1>
+      <p>
+        Explora nuestra colección de figuras decorativas hechas en cerámica y pintadas a mano con colores vivos.
+        Cada pieza es única, ideal para regalar o embellecer tus espacios con arte.
+      </p>
+    </div>
+  </div>
+);
 
 export default Home;

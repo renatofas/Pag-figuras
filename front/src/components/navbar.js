@@ -1,16 +1,32 @@
-// src/components/Navbar.js
-import React from 'react';
+// src/components/navbar.js
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import './Navbar.css';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Figuras Store</div>
-      <ul className="navbar-links">
-        <li><Link to="/">Inicio</Link></li>
-        <li><Link to="/productos">Productos</Link></li>
-        <li><Link to="/contacto">Contacto</Link></li>
+      {/* Botón de menú solo visible en móvil */}
+      <button
+        className="navbar-toggle"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Menú"
+      >
+        ☰
+      </button>
+
+      {/* Logo + texto centrado */}
+      <div className="navbar-center">
+        <img src="/logo.png" alt="Logo" />
+        <span>Figuras Store</span>
+      </div>
+
+      <ul className={`navbar-links ${menuOpen ? 'open' : ''}`}>
+        <li><Link to="/" onClick={() => setMenuOpen(false)}>Inicio</Link></li>
+        <li><Link to="/productos" onClick={() => setMenuOpen(false)}>Productos</Link></li>
+        <li><Link to="/contacto" onClick={() => setMenuOpen(false)}>Contacto</Link></li>
       </ul>
     </nav>
   );

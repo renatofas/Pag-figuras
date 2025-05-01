@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap; /* 👈 hace que se acomode en móviles */
+  }
+  
+  .home-carousel {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  
+  .home-description {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  
+  .home-description h1 {
+    font-size: 1.8rem;
+    color: var(--color-navbar);
+    margin-bottom: 10px;
+  }
+  
+  .home-description p {
+    font-size: 1rem;
+    color: var(--color-text-dark);
+    line-height: 1.6;
+  }
+  

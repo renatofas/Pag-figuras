@@ -11,15 +11,25 @@
   .product-card img {
     max-width: 100%;
     height: auto;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: block;
   }
   
   .product-card a {
     display: inline-block;
     margin-top: 10px;
     color: white;
-    background-color: green;
+    background-color: #B08463; /* 👈 color cálido de tu marca */
     padding: 8px 12px;
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-card a:hover {
+    background-color: #B9937B; /* más claro al pasar el mouse */
   }
   

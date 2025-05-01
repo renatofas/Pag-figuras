@@ -1,0 +1,21 @@
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    
+  }
+  
+  .carousel .slide img {
+    max-height: 800px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 0px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    background-color: #f6f0e900; /* color suave para el fondo */
+    padding: 8px;
+    display: block;
+  }
+  
+  .carousel .slider-wrapper {
+    overflow: hidden;
+  }
