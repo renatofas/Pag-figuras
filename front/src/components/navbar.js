@@ -19,8 +19,8 @@ const Navbar = () => {
 
       {/* Logo + texto centrado */}
       <div className="navbar-center">
-        <img src="/logo.png" alt="Logo" />
-        <span>Figuras Store</span>
+        <img src="/logo2.png" alt="Logo" />
+        <span>QueLindo Store</span>
       </div>
 
       <ul className={`navbar-links ${menuOpen ? 'open' : ''}`}>
