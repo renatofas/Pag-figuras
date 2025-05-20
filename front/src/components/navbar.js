@@ -19,7 +19,7 @@ const Navbar = () => {
 
       {/* Logo + texto centrado */}
       <div className="navbar-center">
-        <img src="/logo2.png" alt="Logo" />
+        <img src="/logo2.PNG" alt="Logo" />
         <span>QueLindo Store</span>
       </div>
 
