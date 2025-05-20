@@ -15,7 +15,7 @@ const ImageCarousel = () => {
         <img src="https://res.cloudinary.com/dhvxcx2d2/image/upload/v1746124988/WhatsApp_Image_2025-05-01_at_14.26.31_1_ww9b4h.jpg" alt="Figura de cerámica colorida 2" />
       </div>
       <div>
-        <img src="/images/carrusel3.jpg" alt="Figura de cerámica colorida 3" />
+        <img src="https://res.cloudinary.com/dhvxcx2d2/image/upload/v1746124988/WhatsApp_Image_2025-05-01_at_14.26.31_1_ww9b4h.jpg" alt="Figura de cerámica colorida 3" />
       </div>
     </Carousel>
   );
