@@ -1,4 +1,4 @@
-/* src/components/ProductCard.css */
+
 .product-card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -6,30 +6,61 @@
     text-align: center;
     width: 250px;
     margin: 10px;
-  }
-  
-  .product-card img {
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-link {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.product-card img {
     max-width: 100%;
     height: auto;
+    object-fit: contain;
     border-radius: 6px;
-    border: none;
-    outline: none;
-    box-shadow: none;
     display: block;
-  }
-  
-  .product-card a {
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card .whatsapp-button {
     display: inline-block;
     margin-top: 10px;
     color: white;
-    background-color: #B08463; /* 👈 color cálido de tu marca */
+    background-color: #B08463;
     padding: 8px 12px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.2s ease;
+}
+
+.product-card .whatsapp-button:hover {
+    background-color: #B9937B;
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    width: 95%;
+    margin: 16px auto;
   }
-  
-  .product-card a:hover {
-    background-color: #B9937B; /* más claro al pasar el mouse */
+
+  .product-card img {
+    width: 75%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
   }
-  
+}
