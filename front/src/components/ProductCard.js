@@ -14,7 +14,7 @@ const ProductCard = ({ id, name, price, images, description }) => (
     <p>{description}</p>
     <strong>${price}</strong>
     <a
-      href={`https://wa.me/56912345678?text=Hola, me interesa el producto: ${name}`}
+      href={`https://wa.me/+56994685092?text=Hola, me interesa la figura de ${name}`}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-button"

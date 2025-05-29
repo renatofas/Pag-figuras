@@ -1,3 +1,4 @@
+
 .producto-detalle {
   width: 80%;
   max-width: 500px;
@@ -16,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: visible; /* 👈 permite que la imagen se expanda libremente */
+  overflow: visible;
 }
 
 .producto-detalle img {
@@ -51,35 +52,43 @@
 /* Botón de WhatsApp */
 .btn-whatsapp {
   display: inline-block;
-  background-color: var(--color-primary);
+  background-color: #B08463;
   color: white;
   padding: 10px 16px;
-  border-radius: 6px;
+  border-radius: 5px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   transition: background-color 0.2s ease;
 }
 
 .btn-whatsapp:hover {
-  background-color: var(--color-secondary);
+  background-color: #B9937B;
+  color: white;
 }
 
-/* 🌐 Adaptación móvil */
-@media (max-width: 480px) {
+/* Responsivo */
+@media (max-width: 600px) {
   .producto-detalle {
-    padding: 16px 10px;
+    width: 95%;
+    padding: 12px;
+  }
+
+  .producto-detalle img {
+    max-height: 400px;
   }
 
   .producto-detalle h1 {
-    font-size: 1.2rem;
-  }
-
-  .producto-detalle strong {
     font-size: 1.1rem;
   }
+}
 
-  .btn-whatsapp {
-    width: 100%;
-    box-sizing: border-box;
-  }
+.carousel .control-prev,
+.carousel .control-next {
+  width: 20%; /* Aumenta el área lateral clickeable */
+  background: transparent;
+}
+
+.carousel .control-prev:hover,
+.carousel .control-next:hover {
+  background: rgba(0, 0, 0, 0.05); /* opcional: indica visualmente que es clickeable */
 }
