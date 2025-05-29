@@ -1,21 +1,98 @@
-.carousel {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-    
+/* ==== Estilo mejorado del carrusel y layout responsive ==== */
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.carousel-text {
+  flex: 1 1 400px;
+  max-width: 500px;
+  color: #4a2c1c;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.carousel-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.carousel-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.carousel-image {
+  flex: 1 1 300px;
+  max-width: 600px;
+  position: relative;
+}
+
+.carousel-image img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ==== Responsive para pantallas pequeñas ==== */
+@media (max-width: 768px) {
+  .carousel-container {
+    flex-direction: column;
+    padding: 1rem;
   }
-  
-  .carousel .slide img {
-    max-height: 800px;
-    width: auto;
-    object-fit: contain;
-    border-radius: 0px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    background-color: #f6f0e900; /* color suave para el fondo */
-    padding: 8px;
-    display: block;
+
+  .carousel-text h2 {
+    font-size: 1.5rem;
   }
-  
-  .carousel .slider-wrapper {
-    overflow: hidden;
+
+  .carousel-text p {
+    font-size: 1rem;
   }
+
+  .carousel-image img {
+    max-height: 300px;
+  }
+}
+
+/* ==== Nuevas secciones para Home ==== */
+
+.home-section {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #3e1f13;
+}
+
+.home-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.home-section p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.home-highlight {
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  border-top: 1px solid #d6b59c;
+  border-bottom: 1px solid #d6b59c;
+  padding: 1rem;
+  max-width: 600px;
+}
