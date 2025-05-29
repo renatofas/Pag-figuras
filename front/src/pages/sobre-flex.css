@@ -1,0 +1,53 @@
+/* ==== Sección Sobre mí con imagen a la derecha ==== */
+.sobre-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #3e1f13;
+}
+
+.sobre-texto {
+  flex: 1 1 400px;
+}
+
+.sobre-texto h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-texto p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.sobre-imagen {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive: imagen debajo del texto */
+@media (max-width: 768px) {
+  .sobre-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-texto h2 {
+    text-align: center;
+  }
+}

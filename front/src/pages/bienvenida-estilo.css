@@ -1,0 +1,32 @@
+/* ==== Bloque editorial para bienvenida ==== */
+.home-bienvenida {
+  background-color: #f3e3d5;
+  border-radius: 14px;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 900px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #3c1e11;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-top: 6px solid #a96b4e;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-bienvenida:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.home-bienvenida h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.home-bienvenida p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  max-width: 720px;
+  margin: 0 auto;
+  color: #4b2e1b;
+}

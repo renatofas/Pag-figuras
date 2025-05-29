@@ -30,4 +30,43 @@
     color: var(--color-text-dark);
     line-height: 1.6;
   }
-  
+  .home-quote {
+  text-align: center;
+  margin: 3rem auto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #6a4028;
+}
+/* ==== Bienvenida centrada visualmente ==== */
+/* ==== Bloque editorial para bienvenida ==== */
+.home-bienvenida {
+  background-color: #f3e3d5;
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem;
+  margin: 2.5rem auto;
+  max-width: 800px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #3c1e11;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid #a96b4e;
+}
+
+.home-bienvenida h2 {
+  font-size: 1.65rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-bienvenida p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 680px;
+  margin: 0 auto;
+  color: #4b2e1b;
+}
+
+.home-bienvenida:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}

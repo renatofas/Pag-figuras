@@ -2,6 +2,7 @@
 import React from 'react';
 import products from '../data/products';
 import ProductCard from '../components/ProductCard';
+import './Productos.css';
 
 const Productos = () => (
   <div className="product-grid">
