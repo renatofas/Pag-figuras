@@ -4,7 +4,7 @@ import React from 'react';
 const Contact = () => (
   <div>
     <h2>Contacto</h2>
-    <p>Escríbeme a: <a href="mailto:ventas@tupagina.cl">ventas@tupagina.cl</a></p>
+    <p>Llama al: <a href="tel:+56994685092">+56 9 9468 5092</a></p>
     <p>O por WhatsApp: <a href="https://wa.me/+56994685092" target="_blank" rel="noopener noreferrer">
     +56 9 9468 5092</a></p>
   </div>
