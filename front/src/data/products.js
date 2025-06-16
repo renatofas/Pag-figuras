@@ -51,7 +51,7 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003693/WhatsApp_Image_2025-06-01_at_20.34.53_1_z5pigr.jpg'
       ]
     },
-    {
+    /*{
       id: '6',
       name: 'Perro salchicha ',
       price: 29000,
@@ -62,7 +62,7 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1748193800/WhatsApp_Image_2025-05-22_at_13.54.11_yzfkvv.jpg',
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1748193800/WhatsApp_Image_2025-05-22_at_13.54.12_1_cwn5ga.jpg'
       ]
-    },
+    }, */
     {
       id: '7',
       name: 'Perro salchicha ',
