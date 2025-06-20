@@ -96,6 +96,24 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003689/WhatsApp_Image_2025-06-01_at_20.34.54_2_gyqpxb.jpg'
       ]
     },
+    {
+      id: '10',
+      name: 'Globo burbuja',
+      price: 8900,
+      description: 'Personalizado',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1750387927/WhatsApp_Image_2025-06-19_at_15.25.50_rq37fl.jpg'
+      ]
+    },
+    {
+      id: '11',
+      name: 'Globo burbuja Baby',
+      price: 46990,
+      description: 'Conjunto incluye Peluche y Manta',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1750387936/WhatsApp_Image_2025-06-19_at_15.30.48_j5gdf8.jpg'
+      ]
+    },
   ];
   
   export default products;
