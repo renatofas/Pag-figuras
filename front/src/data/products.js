@@ -24,7 +24,7 @@ const products = [
     {
       id: '3',
       name: 'Elefante',
-      price: 55000,
+      price: 46900,
       description: '19x33 cm',
       images: [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003697/WhatsApp_Image_2025-06-01_at_20.34.52_rjmtkh.jpg',
@@ -34,7 +34,7 @@ const products = [
     {
       id: '4',
       name: 'Elefante',
-      price: 55000,
+      price: 46900,
       description: '19x33 cm',
       images: [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003695/WhatsApp_Image_2025-06-01_at_20.34.52_3_vuxfyd.jpg',
@@ -44,7 +44,7 @@ const products = [
     {
       id: '5',
       name: 'Elefante',
-      price: 55000,
+      price: 46900,
       description: '19x33 cm',
       images: [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003693/WhatsApp_Image_2025-06-01_at_20.34.53_enonuw.jpg',
