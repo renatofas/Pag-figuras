@@ -111,7 +111,16 @@ const products = [
       price: 46990,
       description: 'Conjunto incluye Peluche y Manta',
       images: [
-        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1750387936/WhatsApp_Image_2025-06-19_at_15.30.48_j5gdf8.jpg'
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1751029799/WhatsApp_Image_2025-06-21_at_11.59.48_tik4u4.jpg'
+      ]
+    },
+    {
+      id: '12',
+      name: 'Hermoso peluche con golosinas',
+      price: 28990,
+      description: 'Personalizado',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1751029804/WhatsApp_Image_2025-06-23_at_17.10.02_1_eczmoe.jpg'
       ]
     },
   ];
