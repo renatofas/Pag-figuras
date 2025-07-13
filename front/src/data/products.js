@@ -123,6 +123,15 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1751029804/WhatsApp_Image_2025-06-23_at_17.10.02_1_eczmoe.jpg'
       ]
     },
+    {
+      id: '13',
+      name: 'Toro español grande',
+      price: 120000,
+      description: '32x44 cm',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1752450437/WhatsApp_Image_2025-07-09_at_22.27.20_evlyod.jpg'
+      ]
+    },
   ];
   
   export default products;
