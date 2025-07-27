@@ -132,6 +132,45 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1752450437/WhatsApp_Image_2025-07-09_at_22.27.20_evlyod.jpg'
       ]
     },
+    {
+      id: '14',
+      name: 'Perro salchicha',
+      price: 29000,
+      description: '20x14 cm',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753634958/WhatsApp_Image_2025-07-26_at_13.54.00_hfura3.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753634983/WhatsApp_Image_2025-07-26_at_13.54.00_1_jsfebq.jpg'
+      ]
+    },
+    {
+      id: '15',
+      name: 'Gato mediano',
+      price: 31000,
+      description: '12x29 cm',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635066/WhatsApp_Image_2025-07-26_at_13.56.11_ln3rj1.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635071/WhatsApp_Image_2025-07-26_at_13.56.12_sxi56l.jpg'
+      ]
+    },
+    {
+      id: '16',
+      name: 'Pera',
+      price: 23000,
+      description: '18x11 cm',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635128/WhatsApp_Image_2025-07-26_at_13.57.48_jmynu2.jpg'
+      ]
+    },
+    {
+      id: '17',
+      name: 'Manzana',
+      price: 23000,
+      description: '18x11 cm',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635179/WhatsApp_Image_2025-07-26_at_13.58.59_1_zp6tvl.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635183/WhatsApp_Image_2025-07-26_at_13.58.59_gvht3o.jpg'
+      ]
+    },
   ];
   
   export default products;
