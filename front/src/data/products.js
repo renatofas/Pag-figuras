@@ -155,7 +155,7 @@ const products = [
     {
       id: '16',
       name: 'Pera',
-      price: 23000,
+      price: 25000,
       description: '18x11 cm',
       images: [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635128/WhatsApp_Image_2025-07-26_at_13.57.48_jmynu2.jpg'
@@ -164,7 +164,7 @@ const products = [
     {
       id: '17',
       name: 'Manzana',
-      price: 23000,
+      price: 25000,
       description: '18x11 cm',
       images: [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1753635179/WhatsApp_Image_2025-07-26_at_13.58.59_1_zp6tvl.jpg',
