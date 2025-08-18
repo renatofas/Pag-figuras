@@ -47,8 +47,9 @@ const products = [
       price: 46900,
       description: '19x33 cm',
       images: [
-        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003693/WhatsApp_Image_2025-06-01_at_20.34.53_enonuw.jpg',
-        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003693/WhatsApp_Image_2025-06-01_at_20.34.53_1_z5pigr.jpg'
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1755487032/WhatsApp_Image_2025-08-11_at_14.14.13_1_lspga8.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1755487036/WhatsApp_Image_2025-08-11_at_14.14.13_pedbc3.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1755487041/WhatsApp_Image_2025-08-11_at_14.14.12_oelmga.jpg'
       ]
     },
     /*{
@@ -63,6 +64,7 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1748193800/WhatsApp_Image_2025-05-22_at_13.54.12_1_cwn5ga.jpg'
       ]
     }, */
+    /*{
     {
       id: '7',
       name: 'Perro salchicha ',
@@ -73,7 +75,7 @@ const products = [
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003700/WhatsApp_Image_2025-06-01_at_20.34.56_2_h6tyxq.jpg',
         'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1749003699/WhatsApp_Image_2025-06-01_at_20.34.56_3_vh8p3t.jpg'
       ]
-    },
+    },*/
     {
       id: '8',
       name: 'Corazón',
@@ -154,6 +156,17 @@ const products = [
     },
     {
       id: '16',
+      name: 'Gato mediano',
+      price: 31000,
+      description: '12x29 cm',
+      images: [
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1755487167/WhatsApp_Image_2025-08-11_at_14.11.46_pwfx70.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1755487175/WhatsApp_Image_2025-08-11_at_14.11.47_1_vbkz7d.jpg',
+        'https://res.cloudinary.com/dhvxcx2d2/image/upload/v1755487171/WhatsApp_Image_2025-08-11_at_14.11.47_k1mklm.jpg'
+      ]
+    },
+    {
+      id: '17',
       name: 'Pera',
       price: 25000,
       description: '18x11 cm',
@@ -162,7 +175,7 @@ const products = [
       ]
     },
     {
-      id: '17',
+      id: '18',
       name: 'Manzana',
       price: 25000,
       description: '18x11 cm',
